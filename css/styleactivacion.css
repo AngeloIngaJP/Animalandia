@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.activacion{
+    height: 100vh;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(205, 218, 205);
+
+
+    
+}
+
+.contenidoact{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/call-to-action-bg.jpg) fixed center center;
+    background-size: cover;
+    margin-bottom: 300px;
+}
+
+
+.logoact{
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.textoact{
+    font-size: 35px;
+    width: 700px;
+    text-align: center;
+    color: honeydew;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+.btnlogact{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnact {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #ffffffcc;
+    font-size: 15px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid #ffffffcc;
+    margin-top: 70px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+    
+  }
+
+  .textbtnact{
+      text-align: center;
+  }
+
+  .btnact::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #9bccd480;
+    transition: all 500ms ease;
+    z-index: -1;
+  }
+
+  .btn--4act::before {
+    left: -520px;
+    right: 0;
+    width: 100%;
+    height: 150%;
+    transition: all 1s ease;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px #9bccd480, 0 0 20px #9bccd480, 0 0 20px #9bccd480;
+  }
+  .btn--4act:hover::before {
+    left: 520px;
+  }

@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Desarrollo Web</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Progress circular-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+  <!-- Team -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- about -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <a href="#intro"><img class="logoanimalandia"src="img/logo.png" alt="Logo"></a>
+        <a href="#intro"><div class="animatext">AnimaLandia</div></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a class="botonnav" href="#intro">Inicio</a></li>
+          <li><a class="botonnav" href="#about">Nosotros</a></li>
+          <li><a class="botonnav" href="#services">Servicios</a></li>
+          <li><a class="botonnav" href="#registro-login">Ingresar</a></li>
+          <li><a class="botonnav" href="#portfolio">Galeria</a></li>
+          <li><a class="botonnav" href="#team">Equipo</a></li>
+          <li><a class="botonnav" href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--==========================
+    Seccion intro
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img  class="imgcarousel" src="img/intro-carousel/1.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Atención Emergencia 24 hrs</h2>
+                <p>Atendemos las 24 horas los 365 días del año, incluido feriados</p>
+                <a href="#about" class="btn-get-started scrollto">Comenzar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img  class="imgcarousel" src="img/intro-carousel/2.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Hospitalización</h2>
+                <p>Ofrecemos el servicio de hospitalización para los pacientes que necesitan cuidados especiales</p>
+                <a href="#about" class="btn-get-started scrollto">Comenzar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img class="imgcarousel"  src="img/intro-carousel/3.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Grooming</h2>
+                <p>Engreímos a su mascota en nuestra peluquería canina, donde nuestros experimentados groomers le ofrecerán un servicio de alta calidad</p>
+                <a href="#about" class="btn-get-started scrollto">Comenzar</a>
+              </div>
+            </div>
+          </div>
+
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Seccion Nosotros
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3 class="topsec">SOBRE NOSOTROS</h3>
+        
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/mision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nuestra Misión</a></h2>
+              <p class="textabout">
+                Ofrecer bienestar a tu engreído y tranquilidad a tu familia, con servicios médicos veterinarios y complementarios de calidad con la mejor atención posible al precio justo.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nuestra Visión</a></h2>
+              <p class="textabout">
+                Ser líderes en servicios médicos veterinarios en Lima en instalaciones con tecnología de punta, con un equipo médico altamente calificado, personal y profesionalmente, incidiendo, a través de nuestras causas, en la problemática veterinaria 
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/etica.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Responsabilidad y ética</a></h2>
+              <p class="textabout">
+                Ante el cuidado de la vida y la salud de tus engreídos, actuamos íntegramente, con honradez, respeto y en consecuencia con ética profesional.
+              </p>
+            </div>
+          </div>
+
+        
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Seccion servicios
+    ============================-->
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3 class="titleservicio">SERVICIOS</h3>
+         
+        </header>
+
+        <div class="row">
+
+          <div id="partservice" class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><img src="img/servicios/cirugia.png" alt=""></div>
+            <h4 class="title"><a href="">Cirugía General</a></h4>
+            <p class="description">Nuestros profesionales se encuentran capacitados para realizar todo tipo de cirugías generales, desde esterilizaciones, hasta extracción de tumores.</p>
+          </div>
+          <div id="partservice" class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s"
+            data-wow-duration="1.4s">
+            <div class="icon"><img src="img/servicios/nutricion.png" alt=""></div>
+            <h4 class="title"><a href="">Nutrición</a></h4>
+            <p class="description">Una dieta equilibrada ayuda a la mascota enferma a incorporar los nutrientes que necesita para reponerse.</p>
+          </div>
+          <div id="partservice" class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><img src="img/servicios/cardiologia.png" alt=""></div>
+            <h4 class="title"><a href="">Cardiología</a></h4>
+            <p class="description">Los exámenes cardiológicos periódicos se han vuelto una práctica necesaria permitiendo la identificación y tratamiento de enfermedades cardíacas.</p>
+          </div>
+          <div id="partservice" class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><img src="img/servicios/nuerologia.png" alt=""></i></div>
+            <h4 class="title"><a href="">Neurología</a></h4>
+            <p class="description">La neurología es la especialidad que se dedica al diagnóstico y tratamiento de enfermedades que afectan el sistema nervioso.</p>
+          </div>
+          <div id="partservice" class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s"
+            data-wow-duration="1.4s">
+            <div class="icon"><img src="img/servicios/oftalmologia.png" alt=""></i></div>
+            <h4 class="title"><a href="">Oftalmología</a></h4>
+            <p class="description">Es vital identificar precozmente los signos de alteración de la visión o de molestias, para ofrecer mejores resultados.</p>
+          </div>
+          <div id="partservice" class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s"
+            data-wow-duration="1.4s">
+            <div class="icon"><img src="img/servicios/odontologia.png" alt=""></i></div>
+            <h4 class="title"><a href="">Odontología</a></h4>
+            <p class="description">En la Veterinaria AnimaLandia, estamos capacitados para atender los problemas orales de tu mascota.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Registro-Login
+    ============================-->
+    <section id="registro-login" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>¿Quiere registrar o consultar algún can?</h3>
+        <p>Inicie sesión para poder realizar estas acciones o Registrese para formar parte de la familia de AnimaLandia.</p>
+        <a class="cta-btn" href="html/ingreso-registro.html">Ingresar / Registrarse</a>
+        <img src="img/imgreglog.png" class="imgreglog" alt="">
+      </div>
+    </section><!-- #call-to-action -->
+
+
+    <!--==========================
+      Seccion galeria
+    ============================-->
+    <section id="portfolio" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Galería de nuestros Canes</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">TODO</li>
+              <li data-filter=".filter-pitbull">Pitbull</li>
+              <li data-filter=".filter-cocker">Cocker</li>
+              <li data-filter=".filter-pequines">Pequines</li>
+              <li data-filter=".filter-siberiano">Siberiano</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pitbull wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/pitbull1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/pitbull1.jpg" data-lightbox="portfolio" data-title="Pitbull 1" class="link-preview"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Atlas</a></h4>
+                <p>Pitbull</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pequines wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/pequines1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/pequines1.jpg" data-lightbox="portfolio" data-title="Pequines 1" class="link-preview"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Dino</a></h4>
+                <p>Pequines</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-siberiano wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/siberiano1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/siberiano1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Siberiano 1"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Layka</a></h4>
+                <p>Siberiano</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pitbull wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/pitbull2.png" class="img-fluid" alt="">
+                <a href="img/portfolio/pitbull2.png" class="link-preview" data-lightbox="portfolio" data-title="Pitbull 2"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Sultan</a></h4>
+                <p>Pitbull</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pequines wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/pequines2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/pequines2.jpg" data-lightbox="portfolio" data-title="Pequines 2" class="link-preview"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Gina</a></h4>
+                <p>Pequines</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cocker wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/cocker1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/cocker1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Cocker 1"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Cosmo</a></h4>
+                <p>Cocker spaniel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-siberiano wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/siberiano2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/siberiano2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Siberiano 2"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Cosmo</a></h4>
+                <p>Siberiano</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pitbull wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/pitbull3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/pitbull3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Pitbull 3"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Atenea</a></h4>
+                <p>Pitbull</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cocker wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/cocker2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/cocker2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Cocker 2"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Gina</a></h4>
+                <p>Cocker spaniel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cocker wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/cocker3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/cocker3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Cocker 3"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Layka</a></h4>
+                <p>cocker spaniel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pitbull wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/pitbull4.png" class="img-fluid" alt="">
+                <a href="img/portfolio/pitbull4.png" class="link-preview" data-lightbox="portfolio" data-title="Pitbull 4"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Zeus</a></h4>
+                <p>Pitbull</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-siberiano wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/siberiano3.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/siberiano3.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Siberiano 3"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Terry</a></h4>
+                <p>Siberiano</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+
+    <!--==========================
+       Seccion team
+    ============================-->
+
+    <!-- id contteam antes -->
+    
+    <section id="team" class="secteam">
+    <h3  class="textteam wow fadeInUp" data-wow-delay="0.3s">NUESTRO EQUIPO</h3>
+
+
+      <!-- section antes -->
+      <div class="containerteam wow fadeInUp" data-wow-delay="0.2s">
+  
+        <div class="cardteam">
+          <div class="bg-imageteam">
+            <img src="img/teambackground.jpg" alt="">
+          </div>
+
+          <div class="picteam">
+            <img src="img/team1.jpg" alt="">
+          </div>
+
+          <div class="infoteam">
+            <h3>Erick Colmenares</h3>
+            <span><i class="fas">CEO</i></span>
+            <p>Graduado de la Facultad de Medicina Veterinaria de la Universidad Nacional Mayor de San Marcos - UNMSM en 2004.</p>
+            <div class="iconsteam">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardteam">
+          <div class="bg-imageteam">
+            <img src="img/teambackground.jpg" alt="">
+          </div>
+
+          <div class="picteam">
+            <img src="img/team2.jpg" alt="">
+          </div>
+
+          <div class="infoteam">
+            <h3>Dana Uribe</h3>
+            <span><i class="fas">Cirujana</i></span>
+            <p>Graduada de la Facultad de Medicina Veterinaria de la Universidad Nacional Mayor de San Marcos - UNMSM en 2006.</p>
+            <div class="iconsteam">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardteam">
+          <div class="bg-imageteam">
+            <img src="img/teambackground.jpg" alt="">
+          </div>
+
+          <div class="picteam">
+            <img src="img/team3.png" alt="">
+          </div>
+
+          <div class="infoteam">
+            <h3>Noah Rodriguez</h3>
+            <span><i class="fas">Responsable de Estética</i></span>
+            <p>Noah completa el equipo de estética y comparte además del trabajo, recuerdos, risas e historias.</p>
+            <div class="iconsteam">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardteam">
+          <div class="bg-imageteam">
+            <img src="img/teambackground.jpg" alt="">
+          </div>
+
+          <div class="picteam">
+            <img src="img/team4.jpg" alt="">
+          </div>
+
+          <div class="infoteam">
+            <h3>Andrés Cevallos</h3>
+            <span><i class="fas">Responsable de Transporte</i></span>
+            <p>Andrés sabe transportar a sus queridos para que siempre lleguen a casa sanos y salvos.</p>
+            <div class="iconsteam">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+          
+  
+      </section>
+
+    </div>
+
+
+
+    <!--==========================
+      Seccion contacto
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp" data-wow-delay="0.2s">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contáctanos</h3>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Dirección</h3>
+              <a href="https://www.google.com.pe/maps/place/Santa+Anita/@-12.0572899,-76.9675896,14z/data=!4m5!3m4!1s0x9105c68077e654bd:0x6e675be6cf829d41!8m2!3d-12.0433031!4d-76.9703673" target="_blank">C108 Santa Anita, Lima 07001, Perú</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Número de telefono</h3>
+              <p><a href="tel:+51 987654321">+51 987654321</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:micompañia@webservices.com">animalandia.veterinaria0@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Ingrese al menos 4 caracteres" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Ingrese al menos 8 caracteres de asunto" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" name="message" rows="5" data-rule="required" data-msg="Por favor, escribe algo para nosotros" placeholder="Escriba su mensaje"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button id="submit" type="submit">Enviar mensaje</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+
+  <footer>
+       
+    <div class="container-footer-all wow fadeInUp" data-wow-delay="0.2s">
+     
+         <div class="container-body">
+
+             <div class="colum1">
+                 <h1>Mas informacion de la veterinaria</h1>
+
+                 <p>Esta veterinaria fue creada por profesionales en medicina general y veterinaria con muchos años de experiencia. Habiendo 
+                  hecho servicios en distintos sectores de la capital con buenas críticas, queremos brindar nuestro compromiso y conocimiento para que
+                  su can pueda recibir el mejor servicio por parte de nuestro equipo.
+                </p>
+
+                 <div class="footer_img">
+                  <img class="footerimg" src="img/undraw_responsive_6c8s.svg" alt="">
+                 </div>
+
+                 
+
+             </div>
+
+             <div class="colum2">
+
+                 <h1>Redes Sociales</h1>
+
+                 <div class="rowsoc">
+                
+                    <img class="socialimagen" src="icon/facebook.png">
+                    <a href="#" class="textsocial">Siguenos en Facebook</a>
+                  
+                </div>     
+                 <div class="rowsoc">
+
+                     <img class="socialimagen" src="icon/twitter.png">
+                     <a href="#" class="textsocial">Siguenos en Twitter</a>
+
+                 </div>
+                 <div class="rowsoc">
+
+                     <img class="socialimagen" src="icon/instagram.svg">
+                     <a href="#" class="textsocial">Siguenos en Instagram</a>
+
+                 </div>
+                 <div class="rowsoc">
+
+                     <img class="socialimagen" src="icon/google-plus.png">
+                     <a href="#" class="textsocial">Siguenos en Google Plus</a>
+
+                 </div>
+                 <div class="rowsoc">
+
+                     <img class="socialimagen" src="icon/pinterest.png">
+                     <a href="#" class="textsocial">Siguenos en Pinteres</a>
+
+                 </div>
+
+
+             </div>
+
+             <div class="colum3">
+
+                 <h1>Informacion Contactos</h1>
+
+                 <div class="row2">
+                     <img src="icon/house.png">
+                     <label>Santa Anita,
+                     Berrocales
+                     Palmasa Cabral      
+                     Edificio # 27</label>
+                 </div>
+
+                 <div class="row2">
+                     <img src="icon/smartphone.png">
+                     <label>(01) 417-0630</label>
+                 </div>
+
+                 <div class="row2">
+                     <img src="icon/contact.png">
+                      <label>animalandia.veterinaria0@gmail.com</label>
+                 </div>
+
+             </div>
+
+         </div>
+     
+     </div>
+     
+     <div class="container-footer">
+            <div class="footer">
+                 <div class="copyright">
+                     © 2021 Todos los Derechos Reservados | <a href="">Angelo Inga</a>
+                 </div>
+
+                 <div class="information">
+                     <a href="">Informacion Compañia</a> | <a href="">Privacidad y Politica</a> | <a href="">Terminos y Condiciones</a>
+                 </div>
+             </div>
+
+         </div>
+     
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/sweetAlert.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
